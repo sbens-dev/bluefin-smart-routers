@@ -1,0 +1,62 @@
+# EditorConfig: https://editorconfig.org
+# Helps maintain consistent coding style across editors and IDEs.
+
+# Top-most EditorConfig file
+root = true
+
+# Default: apply to all files
+[*]
+charset = utf-8
+end_of_line = lf
+insert_final_newline = true
+trim_trailing_whitespace = true
+indent_style = space
+indent_size = 4
+
+# Shell scripts: 4 spaces
+[*.{sh,zsh,bash}]
+indent_style = space
+indent_size = 4
+
+# Markdown: no trailing whitespace trimming (some renderers use it for line breaks)
+[*.md]
+trim_trailing_whitespace = false
+indent_style = space
+indent_size = 2
+
+# YAML: 2 spaces
+[*.{yml,yaml}]
+indent_style = space
+indent_size = 2
+
+# JSON: 2 spaces
+[*.json]
+indent_style = space
+indent_size = 2
+
+# TOML: 2 spaces
+[*.toml]
+indent_style = space
+indent_size = 2
+
+# Config files: 4 spaces (no extension)
+[config]
+indent_style = space
+indent_size = 4
+
+# Makefile: tabs (required by make)
+[Makefile]
+indent_style = tab
+
+# Windows scripts: CRLF
+[*.{bat,cmd}]
+end_of_line = crlf
+
+# Git files
+[.gitattributes]
+indent_style = tab
+
+# Ignore these entirely
+[{.git,.venv,node_modules,dist,build}/**]
+insert_final_newline = false
+trim_trailing_whitespace = false
