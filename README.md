@@ -4,6 +4,7 @@
 [![Latest Release](https://img.shields.io/github/v/release/sbens-dev/bluefin-smart-routers)](https://github.com/sbens-dev/bluefin-smart-routers/releases)
 [![Platform: Linux Bluefin](https://img.shields.io/badge/platform-Linux%20Bluefin-blue)](https://projectbluefin.io/)
 [![Shell: zsh](https://img.shields.io/badge/shell-zsh-89e051)](https://www.zsh.org/)
+[![Syntax Check](https://github.com/sbens-dev/bluefin-smart-routers/actions/workflows/syntax-check.yml/badge.svg)](https://github.com/sbens-dev/bluefin-smart-routers/actions/workflows/syntax-check.yml)
 
 Smart package manager routers for **Linux Bluefin** (and other immutable Fedora-based distros).
 
