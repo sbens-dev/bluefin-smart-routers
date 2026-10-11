@@ -145,6 +145,24 @@ See [`docs/`](docs/) for detailed guides:
 4. **Be transparent.** Every routing decision is logged and (optionally) shown.
 5. **Preserve user intent.** Flags are passed through faithfully.
 
+## Contributing
+
+Contributions are welcome! Please read:
+
+- [CONTRIBUTING.md](CONTRIBUTING.md) — development setup, style guide, PR process.
+- [Code of Conduct](CONTRIBUTING.md#code-of-conduct) — community expectations.
+
+## Security
+
+Found a vulnerability? Please report it privately:
+
+- See [SECURITY.md](SECURITY.md) for our disclosure policy.
+- **Do not** open a public issue for security bugs.
+
+## Changelog
+
+All notable changes are documented in [CHANGELOG.md](CHANGELOG.md).
+
 ## License
 
 MIT — see [LICENSE](LICENSE).
