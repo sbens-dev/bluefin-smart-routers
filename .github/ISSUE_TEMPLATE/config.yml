@@ -1,0 +1,17 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 💬 GitHub Discussions
+    url: https://github.com/sbens-dev/bluefin-smart-routers/discussions
+    about: Ask questions, share ideas, or discuss the project.
+
+  - name: 📖 Troubleshooting Guide
+    url: https://github.com/sbens-dev/bluefin-smart-routers/blob/main/docs/troubleshooting.md
+    about: Check common issues and their fixes before opening an issue.
+
+  - name: 📚 Migration Guide
+    url: https://github.com/sbens-dev/bluefin-smart-routers/blob/main/docs/migration.md
+    about: Learn how to migrate from npm/pip to pnpm/uv workflows.
+
+  - name: 🔒 Report a Security Issue
+    url: https://github.com/sbens-dev/bluefin-smart-routers/security/advisories/new
+    about: Do not open a public issue for security vulnerabilities.
