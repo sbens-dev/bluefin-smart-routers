@@ -15,6 +15,30 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Integration tests using `bats-core`.
 - Homebrew formula for easy installation.
 
+## [1.0.1] - 2026-10-11
+
+### Added
+
+- **Community files:**
+  - `CONTRIBUTING.md` — development setup, style guide, and PR process.
+  - `SECURITY.md` — vulnerability reporting and security design principles.
+  - `CODE_OF_CONDUCT.md` — Contributor Covenant v2.1.
+  - `.editorconfig` — consistent style across editors.
+- **GitHub infrastructure:**
+  - `.github/workflows/syntax-check.yml` — automated `zsh -n` checks on every push and PR.
+  - `.github/ISSUE_TEMPLATE/bug_report.md` — structured bug reports.
+  - `.github/ISSUE_TEMPLATE/feature_request.md` — structured feature requests.
+  - `.github/ISSUE_TEMPLATE/config.yml` — issue chooser with quick links.
+  - `.github/PULL_REQUEST_TEMPLATE.md` — PR checklist and description.
+- **Documentation improvements:**
+  - `README.md` — CI badge, syntax highlighting, community links.
+  - `docs/migration.md` — step-by-step migration from raw npm/pip.
+  - `docs/troubleshooting.md` — 20+ common issues and fixes.
+
+### Changed
+
+- Repository description and topics (12 topics for discoverability).
+
 ## [1.0.0] - 2026-10-11
 
 ### Added
@@ -77,6 +101,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 | Version | Date | Highlights |
 |---|---|---|
+| 1.0.1 | 2026-10-11 | Community files, CI, GitHub templates |
 | 1.0.0 | 2026-10-11 | First stable release — both routers production-ready |
 | 0.1.0 | 2026-10-10 | Initial prototypes |
 
