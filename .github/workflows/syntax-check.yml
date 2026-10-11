@@ -1,0 +1,35 @@
+name: Syntax Check
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  zsh-syntax:
+    name: Validate zsh scripts
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Install zsh
+        run: sudo apt-get update && sudo apt-get install -y zsh
+
+      - name: Check smart-pm.zsh syntax
+        run: |
+          echo "=== Checking smart-pm.zsh ==="
+          zsh -n scripts/smart-pm.zsh
+          echo "✓ smart-pm.zsh syntax OK"
+
+      - name: Check smart-py.zsh syntax
+        run: |
+          echo "=== Checking smart-py.zsh ==="
+          zsh -n scripts/smart-py.zsh
+          echo "✓ smart-py.zsh syntax OK"
+
+      - name: Report success
+        run: echo "✅ All zsh scripts passed syntax check"
